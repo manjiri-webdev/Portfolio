@@ -1,0 +1,131 @@
+@media (max-width: 991px) {
+    .center-menu {
+        background: transparent;
+        box-shadow: none;
+    }
+
+    .center-menu .nav-link {
+        margin: 10px 0;
+    }
+
+    .social-icons {
+        margin-top: 5px;
+        padding: 10px 0;
+        justify-content: center;
+    }
+
+    .icon-circle {
+        border: none;
+    }
+
+    .hero-info h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-info p {
+        font-size: 1rem;
+    }
+
+    .hero-info {
+        padding: 0 15px;
+    }
+
+    .about .card-img {
+        position: relative;
+        width: 80%;
+        height: auto;
+        margin: 0 auto 20px auto;
+        right: auto;
+        bottom: auto;
+    }
+
+    .about .card-video {
+        position: relative;
+        width: 90%;
+        height: auto;
+        margin: 20px auto 0 auto;
+        right: auto;
+        bottom: auto;
+    }
+
+    /* Project section adjustments */
+    .myProject .projectCard {
+        flex-direction: column !important;
+        gap: 30px;
+        margin-bottom: 40px;
+    }
+
+    .myProject .projectInfo h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .myProject .projectInfo p {
+        text-align: center;
+    }
+
+    .myProject .projectInfo a {
+        display: block;
+        text-align: center;
+    }
+
+    .myProject .projectVidbox video {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .skillsImage {
+        width: 60%;
+        margin: 20px 0;
+    }
+
+    .Designer h1,
+    .coder h1 {
+        font-size: 1.8rem;
+    }
+
+    .Designer p,
+    .coder p {
+        font-size: 0.95rem;
+    }
+
+    .slider {
+        --width: 80px;
+        --height: 80px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .socialIcons {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .socialIcons a i {
+        font-size: 2.5rem !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .contact-section .socialBox,
+    .contact-section .contactBox {
+        text-align: center;
+    }
+
+    .contact-section .socialIcons {
+        justify-content: center;
+    }
+
+    .footer .container {
+        text-align: center;
+    }
+
+    .footer .boxIcons {
+        justify-content: center;
+    }
+}
